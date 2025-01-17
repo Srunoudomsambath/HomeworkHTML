@@ -14,52 +14,84 @@ table, th, td {
 </head>
 <body>
     <div class = "cv-container">
-                 <h1>Srun Oudom Sambath</h1>
-                 <div class = "contact">
-                     <p>
-                        
-                       <i class="fa-solid fa-map-pin" style="color: #ec0a15;"></i>
-                        Cambodia, PhnomPenh,Chhukva2
-                    </p>
-                    <p>
-                        <a href="tel:(855)123-4567">
-                            <i class="fa-solid fa-phone" style="color: #e00000;"></i>
-                            (855)712918156
-                        </a>
-                    </p>
-                    <p>
-                        <a href="mailto:toyroith@mail.com">
+   <h1>Srun Oudom Sambath</h1>
+    <div class = "contact">
+         <p>   <i class="fa-solid fa-map-pin" style="color: #ec0a15;"></i>  Cambodia, PhnomPenh,Chhukva2</p>
+              <p><a href="tel:(855)123-4567">
+           <i class="fa-solid fa-phone" style="color: #e00000;"></i> (855)712918156 </a> </p>
+                    <p><a href="mailto:toyroith@mail.com">
                             <i class="fa-regular fa-envelope" style="color: #3d0ad6;"></i>
                             SrunOudomSambath@gmail.com
                         </a>
                     </p>
-                    <h2>Skill Matrix</h2>
-                    <table style="width:100%">
+  <h2>Skill Comparison</h2>
+ <table style="width:100%">
+                        
   <tr>
     <th>Skill Category</th>
-    <th>Proficiency level</th>
-    <th>Year of Experience</th>
+    <th>Before the course</th>
+    <th>After the course</th>
   </tr>
   <tr>
-    <td>Web Development</td>
-    <td>Advanced</td>
-    <td>3</td>
+    <td>HTMl</td>
+    <td>Basic knowledge</td>
+    <td>Advanced understanding and practical usage</td>
   </tr>
   <tr>
-    <td>Project Management</td>
-    <td>Intermediate</td>
-    <td>2</td>
+    <td>CSS</td>
+    <td>Basic styling </td>
+    <td>Learning more about framework such Tailwind & Boostrap</td>
   </tr>
   <tr>
-    <td>UX/UI Design</td>
-    <td>Beginner</td>
-    <td>1</td>
+    <td>JAVA</td>
+    <td>No experience</td>
+    <td>Understanding about concept OOP</td>
   </tr>
 </table>
                   
                 </div>
                  </div>
                 </header>
+                  <h2>Weekly Schedule</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>8:00 AM - 12:00 PM</td>
+        <td>ISTAD</td>
+        <td>ISTAD</td>
+        <td>ISTAD</td>
+        <td>ISTAD</td>
+        <td>ISTAD</td>
+      </tr>
+      <tr>
+        <td>1:00 PM - 5:00 PM</td>
+        <td>English</td>
+        <td>Study</td>
+        <td>Meeting</td>
+        <td>Work on Project</td>
+        <td>Review</td>
+      </tr>
+      <tr>
+        <td>5:30 PM - 9:00 PM</td>
+        <td>SETEC</td>
+        <td>SETEC</td>
+        <td>SETEC</td>
+        <td>SETEC</td>
+        <td>SETEC</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
                 <div class = "main-content">
                 <main>
                 <section class = "section ">
@@ -127,6 +159,24 @@ table, th, td {
  <form action="/action_page.php"></form>
 <fieldset>
     <legend>Personal Information</legend>
+      <form action="/submit" method="post" enctype="multipart/form-data"><br>
+    <label for="position">Position Applied For:</label><br>
+    <input type="text" id="position" name="position" required>
+    <br></br>
+
+    <label for="resume">Upload Resume:</label><br>
+    <input type="file" id="resume" name="resume" required>
+    <br></br>
+
+    <label for="start-date">Available Start Date:</label><br>
+    <input type="date" id="start-date" name="start-date" required>
+    <br></br>
+
+    <label for="salary">Salary Expectations:</label><br>
+    <input type="text" id="salary" name="salary" required>
+    <br></br>
+  </form>
+</section>
     <label for="fname">First Name</label><br>
     <input type="text" id="fname" name="firstname" placeholder="Your name.."><br></br>
 
@@ -135,7 +185,7 @@ table, th, td {
 
     
 
-    <label for="subject">Subject</label><br>
+    <label for="subject">Perspective</label><br>
     <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br></br>
     <label for="country">Priority Level: </label><br>
     <select id="country" name="country">
@@ -159,7 +209,7 @@ table, th, td {
                     <div class = "summary">
                         <h2>Summary</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia!
+                           If you are specifically interested in Istad School or a particular program, I'd recommend checking out their official website, reading reviews, or connecting with current students, parents, or faculty to get a more tailored opinion on their technology initiatives
                         </p>
                     </div>
                </section>
